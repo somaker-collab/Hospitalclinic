@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node" },
+    { "src": "admin.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/admin(/.*)?", "dest": "/admin.js" },
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
