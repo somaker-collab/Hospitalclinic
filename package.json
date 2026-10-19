@@ -1,0 +1,22 @@
+{
+  "name": "dentalcare-smile-studio",
+  "version": "1.0.0",
+  "description": "Full-stack claymorphism dental clinic booking system",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "xss-clean": "^0.1.4"
+  }
+}
